@@ -216,7 +216,7 @@ a {
   background-color: transparent;
 }
 
-.main__button:hover .left_arrow,
+/* .main__button:hover .left_arrow,
 .main__button:focus .left_arrow {
   cursor: pointer;
   color: #2A95F8;
@@ -226,7 +226,7 @@ a {
 .main__button:focus .right_arrow {
   cursor: pointer;
   color: #2A95F8;
-}
+} */
 
 .left_arrow, .right_arrow {
   font-size: 40px;
@@ -766,4 +766,13 @@ a {
   letter-spacing: 0.03em;
 
   color: var(--secondar-text-color);
+}
+
+.no-items-to-scroll {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.no-items-to-scroll:hover,
+.no-items-to-scroll {
+  color: rgba(0, 0, 0, 0.25);
 }
